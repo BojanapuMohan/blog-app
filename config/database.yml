@@ -21,3 +21,13 @@ development: &development
   password: gritinnovation
   host: localhost
 
+
+
+production: 
+  adapter: postgresql
+  encoding: unicode
+  database: blog-app-dev
+  pool: 5
+  username: gritinnovation
+  password: gritinnovation
+  host: /path/to/socket/file
